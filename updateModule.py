@@ -122,7 +122,7 @@ def main(path, ssh_path):
     subprocess.call(['pod','cache','clean', '--all'])
 
     printAction('run pod repo push --allow-warnings')
-    subprocess.call(['pod','repo','push','--allow-warnings','104cac-specs',filename,'--verbose'])
+    subprocess.call(['pod','repo','push','--allow-warnings','my-specs',filename,'--verbose'])
 
     printAction('Done!!!')
 
